@@ -29,17 +29,6 @@ public class Exercises1 {
     }
 
 
-    /*
-    implement a function that returns a triangle for example:
-    row = 5
-
-    *
-    **
-    ***
-    ****
-    *****
-
-     */
     public char[][] generateTriangle(int rows) {
         char[][] triangle = new char[rows][];
         for (int i = 0; i < rows; i++) {
